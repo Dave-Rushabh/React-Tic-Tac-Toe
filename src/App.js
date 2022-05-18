@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import WelcomePage from "./Components/WelcomePage/WelcomePage";
+import Loader from "./Components/Loader/Loader";
+import UserPreferences from "./Components/UserPreferences/UserPreferences";
+import GameDashboard from "./Components/GameDashboard/GameDashboard";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<WelcomePage />} />
+        <Route path="/Loader" element={<Loader />} />
+        <Route path="/user-preferences" element={<UserPreferences />} />
+        <Route path="/game-dashboard" element={<GameDashboard />} />
+      </Routes>
+    </>
   );
 }
-
-export default App;

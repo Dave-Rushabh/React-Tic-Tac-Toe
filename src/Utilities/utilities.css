@@ -1,0 +1,77 @@
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.standard-padding {
+  padding: 2rem;
+}
+
+.standard-margin {
+  margin: 2rem;
+}
+
+.vertical-display {
+  flex-direction: column;
+}
+
+.btn-primary {
+  background-color: #f5cac3;
+  color: black;
+  font-size: large;
+  border: 2px solid #84a59d;
+  border-radius: 10px;
+  height: 4rem;
+  width: 20rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #f6bd60;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: black;
+  font-size: large;
+  border: 2px solid #84a59d;
+  border-radius: 10px;
+  height: 4rem;
+  width: 20rem;
+}
+
+.input-field-primary {
+  height: 4rem;
+  width: 30rem;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #84a59d;
+  font-size: 1.3rem;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: white;
+  color: grey;
+}
+
+.select-field-primary {
+  height: 4rem;
+  width: 30rem;
+  outline: none;
+  border-radius: 10px;
+  border: 2px solid #84a59d;
+  font-size: 1.3rem;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  text-align: center;
+}
+
+.mt-50 {
+  margin-top: 50px;
+}
+
+.pointer {
+  cursor: pointer;
+}

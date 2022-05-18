@@ -1,0 +1,11 @@
+.welcome-page-container {
+  background-color: #eaf4f4;
+  border: 2px solid #84a59d;
+  height: 85vh;
+  border-radius: 10px;
+}
+
+.welcome-page-text {
+  font-size: x-large;
+  text-align: center;
+}

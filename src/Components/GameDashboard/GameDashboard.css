@@ -1,0 +1,60 @@
+.dashboard-container {
+  background-color: white;
+  border: 2px solid #fb8500;
+  height: 85vh;
+  border-radius: 10px;
+}
+
+.dashboard-left {
+  width: 60%;
+  height: 60vh;
+}
+
+.dashboard-right {
+  width: 40%;
+  height: 60vh;
+  border-left: 2px solid #fb8500;
+}
+
+.content-left {
+  display: grid;
+  grid-template-columns: repeat(3, 10vw);
+  grid-template-rows: repeat(3, 10vw);
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.box {
+  border: 1px solid black;
+  font-size: 5vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box:hover {
+  background-color: #f2f2f2;
+}
+
+.right-border {
+  border-right: 0;
+}
+
+.left-border {
+  border-left: 0;
+}
+
+.top-border {
+  border-top: 0;
+}
+
+.bottom-border {
+  border-bottom: 0;
+}
+
+.tie-time,
+.winning-time {
+  background-color: #fffff7;
+  pointer-events: none;
+}
